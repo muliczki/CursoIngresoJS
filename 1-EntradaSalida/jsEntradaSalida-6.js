@@ -2,11 +2,17 @@
 transformarlos a enteros (parseInt) y Sumarlos.
 mostrar el resulto por medio de "ALERT"*/
 function sumar()
-{var uno;
-    uno = document.getElementById("numeroUno").value;
+{
+    //parseInt me transforma el texto en numero, hace que la PC reconozca 
+    // que es un numero
+
+    
+    var uno;
+    uno = parseInt(document.getElementById("numeroUno").value);
 var dos;
-    dos = document.getElementById("numeroDos").value;
-al
+    dos = parseInt(document.getElementById("numeroDos").value);
+
+alert("La suma es "+ (uno+dos));
 
 }
 
