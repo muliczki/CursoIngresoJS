@@ -26,5 +26,8 @@ function Circulo ()
 // perimetro del circulo = 2*PI*radio o PI*diametro
 function Materiales () 
 {
-	
+	var Largo = parseInt(document.getElementById("Largo").value)
+    var Ancho = parseInt(document.getElementById("Ancho").value)
+    var Radio = parseInt(document.getElementById("Radio").value)
 }
+// superficie rectangulo = base*altura
