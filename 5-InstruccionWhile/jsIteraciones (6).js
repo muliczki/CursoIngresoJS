@@ -15,8 +15,9 @@ while(contador<5)
 numero = parseInt(prompt("Escribi un número"));
 	while(isNaN(numero))
 {
-	parseInt(prompt("no es un numero.Escribi un número")
+	numero=parseInt(prompt("no es un numero.Escribi un número"));
 }
+acumulador=acumulador+numero
 contador++
 }
 promedio=acumulador/5
@@ -25,3 +26,5 @@ document.getElementById('suma').value=acumulador;
 document.getElementById('promedio').value=promedio
 
 }//FIN DE LA FUNCIÓN
+
+
