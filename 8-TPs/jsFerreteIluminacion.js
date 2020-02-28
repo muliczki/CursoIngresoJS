@@ -55,7 +55,14 @@ function CalcularPrecio() {
                 total = (cantidad*(precio*0.95));
         }
     }
-
+    else if(cantidad>0)
+    {
+        total = cantidad*precio
+    }
+    else if(cantidad<1 || isNaN(cantidad))
+    {
+        alert("Cantidad invalida");
+    }
     if(total>120)
     {
         impuesto=total*0.1;
